@@ -36,7 +36,7 @@ footer {
 transform:rotate(90deg);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   color: #400101;
 }
@@ -139,7 +139,11 @@ h5:hover:after {
   width: 100%;
   left: 0;
 }
-
+h6 {
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.6em;
+}
 img {
   width: 80%;
   padding: 30px 0;
@@ -160,6 +164,15 @@ a:focus {
 a:active { /* selected link */
   color: #400101;
 }
+
+.underline {
+  text-decoration: underline;
+  color: #BF793B !important;
+}
+.underline:hover {
+  color: #8C403A !important;
+}
+
 
 /* Layout styling */
 .container {
@@ -262,7 +275,7 @@ margin-right: auto;
   margin-left: 100px;
 }
 #kijoophoto2 {
-  margin-top:-180px;
+  margin-top:-150px;
   transform: scale(.85);
 }
 
@@ -344,8 +357,9 @@ width:85%;
 .scale4{
   width:45%;
 }
-.boxshadow {
+.dropshadow {
   box-shadow:10px 10px 30px #cdcdcd;
+  transform:scale(.85);
 }
 .overlay-image {
   position:relative;
@@ -444,6 +458,8 @@ margin-top:300px;
   transform:scale(1.1);
   color: #8C403A;
 }
+
+
 //*  horizontal scroll  *//
       .slide {
         width: 100vw;
