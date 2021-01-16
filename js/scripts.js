@@ -27,3 +27,20 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+/////using different stylesheet for mobile/////
+function adjustStyle(width) {
+  width = parseInt(width);
+  if (width < 640) {
+    $("#size-stylesheet").attr("href", "css/style5.css");
+  } else if (width < 641) {
+    $("#size-stylesheet").attr("href", "css/style4.css");
+  }
+}
+
+$(function() {
+  adjustStyle($(this).width());
+  $(window).resize(function() {
+    adjustStyle($(this).width());
+  });
+});
