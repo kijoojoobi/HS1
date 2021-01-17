@@ -27,34 +27,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-/////////adoptive design//////////
-var href = window.location.href.split("/")
-var html_location = href[href.length-1]
-
-if (window.innerWidth >= 640 && html_location !== "index5.html") {
-    window.location = "index.html";
-}
-
-if (window.innerWidth < 641 && html_location !== "index.html") {
-    window.location = "index2.html";
-}
-
-
-
-/////using different stylesheet for mobile/////
-function adjustStyle(width) {
-  width = parseInt(width);
-  if (width < 640) {
-    $("#size-stylesheet").attr("href", "css/style5.css");
-  } else if (width < 641) {
-    $("#size-stylesheet").attr("href", "css/style4.css");
-  }
-}
-
-$(function() {
-  adjustStyle($(this).width());
-  $(window).resize(function() {
-    adjustStyle($(this).width());
-  });
-});
