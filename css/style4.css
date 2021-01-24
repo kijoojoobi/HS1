@@ -581,7 +581,7 @@ Medium devices (640px and larger)
                       width:60%;}
               .image-stack_item--bottom {
                         position:absolute;
-                        top:85px;
+                        top:80px;
                         right:-80px;
                         width:100%;
                         z-index:-1;
