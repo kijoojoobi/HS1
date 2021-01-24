@@ -204,8 +204,6 @@ nav > ul > li > a {
   color: #400100;
 }
 
-
-
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -387,7 +385,6 @@ width:85%;
   margin-left:-3px;
 }
 .shape3 {
-  height:118%;
   margin-top:-13px;
   margin-left:-3px;
 }
