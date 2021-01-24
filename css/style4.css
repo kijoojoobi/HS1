@@ -547,10 +547,10 @@ Medium devices (640px and larger)
       ================================= */
           @media only screen and (min-width: 1366px) {
       h2 {
-       font-size: 3.2em;
+       font-size: 3em;
                   }
          #item1 h2 {
-          margin-top: 18px;
+          margin-top: 20px;
         }
 }
             /* ==============================
