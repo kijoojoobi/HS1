@@ -542,3 +542,71 @@ Medium devices (640px and larger)
 }
 #aboutme h3 { margin-top: 0;}
       }
+            /* ==============================
+            Extra-Large devices (1920px and larger)
+            ================================= */
+                @media only screen and (min-width: 1920px) {
+                .logo {
+                  margin-top:30px;
+                  font-size:46px;
+                }
+                nav a{
+               font-size: 23px;
+                }
+                nav {
+                  margin-top:34px;
+                }
+                  footer {
+                    margin-top:550px;
+                  }
+                  h5 {
+                    font-size: 6.8em;}
+                  h2 {
+                    font-size: 4em;
+                  }
+        #item1 {
+          margin-top:120px;
+        }
+        #item1 h2 {
+          margin-top: 10px;
+        }
+        #item3 {
+          margin-top:150px;
+        }
+        #item4 {
+          margin-top:80px;
+        }
+        #item2 {
+          margin-top:440px;
+        }
+        #item5 {
+          margin-top:230px;
+        }
+        #item6 {
+          margin-top:100px;
+        }
+        #item6 h2{
+        margin-top:250px;
+        }
+
+        #socialicons a {
+          font-size: 24px;
+        }
+                    .image-stack_item--bottom {
+                      position:absolute;
+                      top:200px;
+                      right:-80px;
+                      width:100%;
+                      z-index:-1;
+                    }
+                    .image-stack_item--top {
+                      margin-top:-500px;
+                      padding-right:24%;
+                      width:65%;}
+   .shape3 {
+   height:100% !important;}
+   .shape6 {
+     margin-top:200px;
+     margin-left:100px;
+   }
+}
