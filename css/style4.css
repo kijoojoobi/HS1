@@ -577,7 +577,7 @@ Medium devices (640px and larger)
           margin-top: 136px;}
             
          .shape3 {
-           height:640px;}
+           height:120% !important;}
              .image-stack_item--top {
                       margin-top:-560px;
                       padding-right:24%;
