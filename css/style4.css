@@ -640,7 +640,7 @@ Medium devices (640px and larger)
         }
                     .image-stack_item--bottom {
                       position:absolute;
-                      top:180px;
+                      top:150px;
                       right:-80px;
                       width:100%;
                       z-index:-1;
