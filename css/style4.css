@@ -547,11 +547,26 @@ Medium devices (640px and larger)
       ================================= */
           @media only screen and (min-width: 1366px) {
       h2 {
-       font-size: 3em;
+       font-size: 3.2em;
                   }
          #item1 h2 {
           margin-top: 20px;
         }
+         #item2 h2 {
+          margin-top: 20px;}
+         #item3 h2 {
+          margin-top: 20px;}
+         #item4 h2 {
+          margin-top: 20px;}
+         #item5 h2 {
+          margin-top: 20px;}
+         #item6 h2 {
+          margin-top: 20px;}
+             .image-stack_item--top {
+                      margin-top:-560px;
+                      padding-right:24%;
+                      width:50%;}
+            
 }
             /* ==============================
             Extra-Large devices (1920px and larger)
@@ -573,7 +588,7 @@ Medium devices (640px and larger)
                   h5 {
                     font-size: 6.8em;}
                   h2 {
-                    font-size: 3.2em;
+                    font-size: 3.4em;
                   }
         #item1 {
           margin-top:120px;
@@ -581,6 +596,7 @@ Medium devices (640px and larger)
         #item1 h2 {
           margin-top: 18px;
         }
+    
         #item3 {
           margin-top:150px;
         }
