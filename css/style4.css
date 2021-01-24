@@ -619,6 +619,8 @@ Medium devices (640px and larger)
         #item3 {
           margin-top:150px;
         }
+       #item3 img [
+        height: 110% !important;}
         #item4 {
           margin-top:80px;
         }
@@ -655,7 +657,7 @@ Medium devices (640px and larger)
   width:80%;
 }
    .shape3 {
-   height:100% !important;}
+   height:110% !important;}
    .shape6 {
      margin-top:200px;
      margin-left:100px;
