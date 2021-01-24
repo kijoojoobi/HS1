@@ -385,7 +385,6 @@ width:85%;
   margin-left:-3px;
 }
 .shape3 {
-  height:700px;
   margin-top:-13px;
   margin-left:-3px;
 }
@@ -576,8 +575,6 @@ Medium devices (640px and larger)
          #item6 h2 {
           margin-top: 136px;}
             
-         .shape3 {
-           height:120% !important;}
              .image-stack_item--top {
                       margin-top:-560px;
                       padding-right:24%;
@@ -621,8 +618,6 @@ Medium devices (640px and larger)
         #item3 {
           margin-top:150px;
         }
-       #item3 img [
-        height: 110% !important;}
         #item4 {
           margin-top:80px;
         }
@@ -658,8 +653,6 @@ Medium devices (640px and larger)
   margin-left:60%;
   width:80%;
 }
-   .shape3 {
-      height:120% !important;}
    .shape6 {
      margin-top:200px;
      margin-left:100px;
