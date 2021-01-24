@@ -385,7 +385,7 @@ width:85%;
   margin-left:-3px;
 }
 .shape3 {
-  height:80%;
+  height:100%;
   margin-top:-13px;
   margin-left:-3px;
 }
@@ -540,18 +540,6 @@ Medium devices (640px and larger)
 }
 #aboutme h3 { margin-top: 0;}
       }
-      /* ==============================
-     Large devices (1024px and larger)
-      ================================= */
-          @media only screen and (min-width: 1024px) {
-    h2 {
-      font-size: 2.8em;}
-    h5 {
-      font-size:4em;}
-}
-            
-            
-            
             
       /* ==============================
      x-Large devices (1366px and larger)
