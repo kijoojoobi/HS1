@@ -549,25 +549,43 @@ Medium devices (640px and larger)
       h2 {
        font-size: 3.2em;
                   }
-         #item1 h2 {
-          margin-top: 20px;
+#item1 h2 {
+          margin-top: 24px;
         }
-         #item2 h2 {
-          margin-top: 20px;}
+        #item2 {
+          margin-top:300px;
+        }
+            #item2 h2 {
+          margin-top: 80px;}
+        #item3 {
+          margin-top:50px;
+        }
          #item3 h2 {
-          margin-top: 20px;}
+          margin-top: -30px;}
+
          #item4 h2 {
-          margin-top: 20px;}
+          margin-top: -30px;}
+          #item5 {
+            margin-top:100px;
+          }
          #item5 h2 {
-          margin-top: 20px;}
+          margin-top: -36px;}
+          #item6 {
+            margin-top:50px;
+          }
          #item6 h2 {
-          margin-top: 20px;}
+          margin-top: 136px;}
              .image-stack_item--top {
                       margin-top:-560px;
                       padding-right:24%;
-                      width:50%;}
-            
-}
+                      width:60%;}
+              .image-stack_item--bottom {
+                        position:absolute;
+                        top:80px;
+                        right:-80px;
+                        width:100%;
+                        z-index:-1;
+                      }}
             /* ==============================
             Extra-Large devices (1920px and larger)
             ================================= */
